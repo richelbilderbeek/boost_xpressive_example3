@@ -27,7 +27,7 @@ script:
   # Build and run
   - qmake
   - make
-  - ./boost_xpressive_example2
+  - ./boost_xpressive_example3
   # Get code coverage
   - ./get_code_cov
   - codecov
@@ -36,7 +36,3 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-
-
-
-
